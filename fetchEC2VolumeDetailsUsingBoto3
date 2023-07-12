@@ -10,6 +10,11 @@ import sys
 from botocore.exceptions import ClientError
 
 
+##########
+# 1. Add read-only access to lambda iam role
+# 2. Add S3 access to the lambda iam role (for upload access)
+# 3. use Lambda Python3.8 base
+##########
 
 
 ### ENABLE The profilename below, while testing from local. Disable this and session line in 63, enable line 64 session before pushing to Lambda#######
